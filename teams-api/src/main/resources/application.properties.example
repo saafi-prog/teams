@@ -1,0 +1,8 @@
+# Database connection configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/<database_name>
+spring.datasource.username=<user>
+spring.datasource.password=<password>
+
+# SQL queries logging configuration
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true

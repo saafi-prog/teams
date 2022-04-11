@@ -12,7 +12,7 @@ INSERT INTO addresses (road, town_id) VALUES
 	('14 Rue de la Beaune', (SELECT t.id FROM towns t WHERE t.zip_code = '93100'));
 	
 INSERT INTO teams (name) VALUES
-	('Formateurs'), ('Pedagogique');
+	('Formateurs'), ('Pedagogique'),('Apprenants');
 	
 INSERT INTO members (first_name, last_name, home_address_id) VALUES
 	('Jeremy', 'BOJKO', (SELECT t.id FROM addresses t WHERE t.road = '14 Rue de la Beaune')),

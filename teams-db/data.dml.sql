@@ -7,6 +7,7 @@
  */
 INSERT INTO towns (zip_code, name) VALUES
 	('93100', 'Montreuil');
+	('13000', 'Marseille');
 
 INSERT INTO addresses (road, town_id) VALUES
 	('14 Rue de la Beaune', (SELECT t.id FROM towns t WHERE t.zip_code = '93100'));

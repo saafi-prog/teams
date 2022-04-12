@@ -2,7 +2,7 @@ HELP.md
 target/
 .mvn
 application.properties
-
+bin/
 ### STS ###
 .apt_generated
 .classpath
